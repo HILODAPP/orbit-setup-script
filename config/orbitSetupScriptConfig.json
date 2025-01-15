@@ -8,7 +8,7 @@
   "chainName": "My Arbitrum L3 Chain",
   "minL2BaseFee": 100000000,
   "parentChainId": 421614,
-  "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
+  "parent-chain-node-url": "https://arb-sepolia.g.alchemy.com/v2/Gej6c-p3zE-rUIjR9S7eOS0_EggTD2tF",
   "utils": "0x7C100c97a54e2D309a194752Df2f66922A802be3",
   "rollup": "0x338fde5bd76b7F1b962d2F0C1cabDb1f7e6852FE",
   "inbox": "0xD51541fcc0DB6aD047f398A5c0352F96658f9c3E",
