@@ -23,7 +23,7 @@ async function main() {
   const privateKey = process.env.PRIVATE_KEY
   const L2_RPC_URL = process.env.L2_RPC_URL
   const L3_RPC_URL = process.env.L3_RPC_URL
-  const amount = process.env.AMOUNT
+  const amount = "1"
 
   if (!privateKey || !L2_RPC_URL || !L3_RPC_URL || !amount) {
     throw new Error('Required environment variable not found')
@@ -60,7 +60,7 @@ async function main() {
     )
     // deposit 0.4 ETH
     const tx = await contract.depositEth({
-      value: ethers.utils.parseEther('0.4'),
+      value: ethers.utils.parseEther('10'),
     })
     console.log('Transaction hash on parent chain: ', tx.hash)
     await tx.wait()
