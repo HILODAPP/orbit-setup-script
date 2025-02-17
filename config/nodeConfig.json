@@ -1,11 +1,11 @@
 {
   "chain": {
-    "info-json": "[{\"chain-id\":63368363880,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"My Arbitrum L3 Chain\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":32,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0xF6eBd66c6D3849508BA5fda52CfCF21B289E8E07\"},\"chainId\":63368363880},\"rollup\":{\"bridge\":\"0x943e2f287170DD142c48f186AaD2C53ac9951435\",\"inbox\":\"0xD51541fcc0DB6aD047f398A5c0352F96658f9c3E\",\"sequencer-inbox\":\"0x50833A97dfe6209bc66928C7B329fEE59293061D\",\"rollup\":\"0x338fde5bd76b7F1b962d2F0C1cabDb1f7e6852FE\",\"validator-utils\":\"0x7C100c97a54e2D309a194752Df2f66922A802be3\",\"validator-wallet-creator\":\"0xFAd2C6Cb969Ab7B18d78BD63e512b650bb70B570\",\"deployed-at\":114901467}}]",
-    "name": "My Arbitrum L3 Chain"
+    "info-json": "[{\"chain-id\":9768329558,\"parent-chain-id\":421614,\"parent-chain-is-arbitrum\":true,\"chain-name\":\"Hilo Erc20\",\"chain-config\":{\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":32,\"GenesisBlockNum\":0,\"MaxCodeSize\":24576,\"MaxInitCodeSize\":49152,\"InitialChainOwner\":\"0xF6eBd66c6D3849508BA5fda52CfCF21B289E8E07\"},\"chainId\":9768329558},\"rollup\":{\"bridge\":\"0x28404c212bc129c7558012f81e1d29Fcf244Ba3b\",\"inbox\":\"0xd3834392085901b4d0D9A06550C69e34aA96D3E7\",\"sequencer-inbox\":\"0x5F298cc6626d39d0Cf5fe6Fde8079D4B4A882C32\",\"rollup\":\"0x7F71d4CeFAcAFa43e867b8769728C66739189F89\",\"validator-utils\":\"0x7C100c97a54e2D309a194752Df2f66922A802be3\",\"validator-wallet-creator\":\"0xFAd2C6Cb969Ab7B18d78BD63e512b650bb70B570\",\"deployed-at\":124634070}}]",
+    "name": "Hilo Erc20"
   },
   "parent-chain": {
     "connection": {
-      "url": "https://arb-sepolia.g.alchemy.com/v2/Gej6c-p3zE-rUIjR9S7eOS0_EggTD2tF"
+      "url": "https://sepolia-rollup.arbitrum.io/rpc"
     }
   },
   "http": {
@@ -36,14 +36,14 @@
       "max-size": 90000,
       "enable": true,
       "parent-chain-wallet": {
-        "private-key": "6ef05d8cbe189656b08f48401daae97d7a391072ded3b982b8d4043cbee8b22e"
+        "private-key": "b7e3cca2054c485dd50887e0dfe888db86e1012cb7174506cfb0b01842bd20cd"
       }
     },
     "staker": {
       "enable": true,
       "strategy": "MakeNodes",
       "parent-chain-wallet": {
-        "private-key": "485d188e18370da1819acd6045fc0ce94a7d89a2e11021aee28e86339349f5d5"
+        "private-key": "d56f54a4b7165e61217b6348f114e88cf72fd198c6d09d587420563f3abefbd3"
       }
     },
     "dangerous": {
@@ -52,8 +52,8 @@
     },
     "data-availability": {
       "enable": true,
-      "sequencer-inbox-address": "0x50833A97dfe6209bc66928C7B329fEE59293061D",
-      "parent-chain-node-url": "https://arb-sepolia.g.alchemy.com/v2/Gej6c-p3zE-rUIjR9S7eOS0_EggTD2tF",
+      "sequencer-inbox-address": "0x5F298cc6626d39d0Cf5fe6Fde8079D4B4A882C32",
+      "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
       "rest-aggregator": {
         "enable": true,
         "urls": [
