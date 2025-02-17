@@ -8,7 +8,7 @@
   "chainName": "Hilo Erc20",
   "minL2BaseFee": 100000000,
   "parentChainId": 421614,
-  "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
+  "parent-chain-node-url": "https://arb-sepolia.g.alchemy.com/v2/WA0EJ2EhWKqfz0wED6wTrJ5-wWAgsEb0",
   "utils": "0x7C100c97a54e2D309a194752Df2f66922A802be3",
   "rollup": "0x7F71d4CeFAcAFa43e867b8769728C66739189F89",
   "inbox": "0xd3834392085901b4d0D9A06550C69e34aA96D3E7",
