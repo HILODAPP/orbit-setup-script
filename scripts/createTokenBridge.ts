@@ -361,8 +361,8 @@ export const createERC20Bridge = async (
       chainName: config.chainName,
       chainId: config.chainId,
       parentChainId: config.parentChainId,
-      rpcUrl: 'http://sepolia.hiloscan.io:8449',
-      explorerUrl: 'http://sepolia.hiloscan.io',
+      rpcUrl: 'http://erc20.hiloscan.io:8449',
+      explorerUrl: 'http://erc20.hiloscan.io',
       nativeToken: config.nativeToken,
     },
     coreContracts: {
