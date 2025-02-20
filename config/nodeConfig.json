@@ -35,6 +35,7 @@
     "batch-poster": {
       "max-size": 90000,
       "enable": true,
+      "l1-block-bound": "ignore",
       "parent-chain-wallet": {
         "private-key": "b7e3cca2054c485dd50887e0dfe888db86e1012cb7174506cfb0b01842bd20cd"
       }
