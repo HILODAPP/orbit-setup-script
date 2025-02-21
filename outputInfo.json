@@ -1,0 +1,46 @@
+{
+  "chainInfo": {
+    "minL2BaseFee": 100000000,
+    "networkFeeReceiver": "0xF6eBd66c6D3849508BA5fda52CfCF21B289E8E07",
+    "infrastructureFeeCollector": "0xF6eBd66c6D3849508BA5fda52CfCF21B289E8E07",
+    "batchPoster": "0xCe0eBeFfa6c2e322CBB5664444B8e38c31B92451",
+    "staker": "0x5c2F7C7df974F06791343f7E9302504545D57151",
+    "chainOwner": "0xF6eBd66c6D3849508BA5fda52CfCF21B289E8E07",
+    "chainName": "Hilo Erc20",
+    "chainId": 9768329558,
+    "parentChainId": 421614,
+    "rpcUrl": "http://erc20.hiloscan.io:8449",
+    "explorerUrl": "http://erc20.hiloscan.io",
+    "nativeToken": "0xdff145F461AB45FB700512b517B56a58Ab3ad189"
+  },
+  "coreContracts": {
+    "rollup": "0x7F71d4CeFAcAFa43e867b8769728C66739189F89",
+    "inbox": "0xd3834392085901b4d0D9A06550C69e34aA96D3E7",
+    "outbox": "0x2CC8987b3F55fDbfEF181048dd3fD16c28c00F34",
+    "adminProxy": "0x94E85876239cc08Ec0f3066bB280B59942097A53",
+    "sequencerInbox": "0x5F298cc6626d39d0Cf5fe6Fde8079D4B4A882C32",
+    "bridge": "0x28404c212bc129c7558012f81e1d29Fcf244Ba3b",
+    "utils": "0x7C100c97a54e2D309a194752Df2f66922A802be3",
+    "validatorWalletCreator": "0xFAd2C6Cb969Ab7B18d78BD63e512b650bb70B570"
+  },
+  "tokenBridgeContracts": {
+    "l2Contracts": {
+      "customGateway": "0x0a6025F360776AD64Be24bB4ee46389A74470E76",
+      "multicall": "0xce1CAd780c529e66e3aa6D952a1ED9A6447791c1",
+      "proxyAdmin": "0x0000000000000000000000000000000000000000",
+      "router": "0x1f826b5FA1b2E42BE05BD2e5A32D86dc566a2F9f",
+      "standardGateway": "0x4E67FEBa250754Fbe6078CfBc41CAD68cB416a69",
+      "weth": "0x0000000000000000000000000000000000000000",
+      "wethGateway": "0x0000000000000000000000000000000000000000"
+    },
+    "l3Contracts": {
+      "customGateway": "0x64808a43Eb26954ECd6985EBFB708CE33bBd285F",
+      "multicall": "0x0026F149f9c61B8B347287B825A67ce1DC692a10",
+      "proxyAdmin": "0xabd042f6F6C48Fd220A8638Ae861dF0b4e66B4eA",
+      "router": "0x00344cd2C459d9BE64877Df1309Db3001e9Fb46f",
+      "standardGateway": "0xf542A0faed8f8163599DBd2e43eECA4032AC7B9a",
+      "weth": "0x0000000000000000000000000000000000000000",
+      "wethGateway": "0x0000000000000000000000000000000000000000"
+    }
+  }
+}
