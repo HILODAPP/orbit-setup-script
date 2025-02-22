@@ -5,7 +5,7 @@
   },
   "parent-chain": {
     "connection": {
-      "url": "https://arb-sepolia.g.alchemy.com/v2/WA0EJ2EhWKqfz0wED6wTrJ5-wWAgsEb0"
+      "url": "https://sepolia-rollup.arbitrum.io/rpc"
     }
   },
   "http": {
@@ -54,7 +54,7 @@
     "data-availability": {
       "enable": true,
       "sequencer-inbox-address": "0x5F298cc6626d39d0Cf5fe6Fde8079D4B4A882C32",
-      "parent-chain-node-url": "https://arb-sepolia.g.alchemy.com/v2/WA0EJ2EhWKqfz0wED6wTrJ5-wWAgsEb0",
+      "parent-chain-node-url": "https://sepolia-rollup.arbitrum.io/rpc",
       "rest-aggregator": {
         "enable": true,
         "urls": [
