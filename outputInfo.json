@@ -9,8 +9,8 @@
     "chainName": "Hilo Erc20",
     "chainId": 9768329558,
     "parentChainId": 421614,
-    "rpcUrl": "http://erc20.hiloscan.io:8449",
-    "explorerUrl": "http://erc20.hiloscan.io",
+    "rpcUrl": "https://erc20.hiloscan.io:8448",
+    "explorerUrl": "https://erc20.hiloscan.io",
     "nativeToken": "0xdff145F461AB45FB700512b517B56a58Ab3ad189"
   },
   "coreContracts": {
